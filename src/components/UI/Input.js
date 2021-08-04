@@ -1,4 +1,5 @@
 import classes from './Input.module.css';
+import {forwardRef} from "react";
 
 const Input = forwardRef((props, ref) => {
     return (
